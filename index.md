@@ -1,6 +1,42 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
 ---
+
+<div class="home">
+
+
+  {% for post in site.posts%}
+  <div class="post postContent">
+    <div class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </div>
+    <div class="postDay">
+      {% for category in post.categories %}
+        <a href="/{{category}}/">{{category}}</a>
+      {% endfor %}
+    </div>
+    <br>
+    <div class="postTitle">
+    <a class="postLink" href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+    </div>
+    <div class="postExt">
+   {{ post.content | strip_html | truncatewords:20}}
+    </div>
+  </div>
+
+
+  {% endfor %}
+  <!--<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta-main">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link-main" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>-->
+
+
+
+</div>
