@@ -10,9 +10,7 @@ layout: default
     <div class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
     <div class="postDay">
-      {% for category in post.categories %}
-        <a href="/{{category}}/">{{category}}</a>
-      {% endfor %}
+      {{post.tag}}
     </div>
     <br>
     <div class="postTitle">
