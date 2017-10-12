@@ -1,7 +1,7 @@
 ---
+title: About
+permalink: "/about/"
 layout: page
-title : About
-permalink: /about/
 ---
 
 <h2>About</h2>

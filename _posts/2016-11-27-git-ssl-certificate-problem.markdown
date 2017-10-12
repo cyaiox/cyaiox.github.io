@@ -1,8 +1,9 @@
 ---
+title: GIT SSL Certificate Problem
+date: 2016-11-27 23:54:00 Z
+tags:
+- news
 layout: post
-title: "GIT SSL Certificate Problem"
-date: 2016-11-27 19:54:00 -0400
-tag: news
 ---
 
 Hello, the last friday when I was trying to push my changes in a project to the repo,

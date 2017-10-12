@@ -1,8 +1,9 @@
 ---
+title: Welcome to my Site!
+date: 2016-11-21 01:29:00 Z
+tags:
+- news
 layout: post
-title: "Welcome to my Site!"
-date: 2016-11-20 21:29:00 -0400
-tag: news
 ---
 
 Hello, nice to meet you, my name is Gabriel, this is my first post!
