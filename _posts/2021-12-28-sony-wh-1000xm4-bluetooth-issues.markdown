@@ -26,5 +26,5 @@ You could be able to change the audio profile in the sound settings.
 Thanks for reading this post. 
 See you, space cowboy.
 
-*PS: If the OS doesn't recognize or won't connect to the headset, restart the headset.*
+***PS: If the OS doesn't recognize or won't connect to the headset, restart the headset.***
 
