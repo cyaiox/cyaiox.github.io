@@ -11,7 +11,7 @@ collections:
 email: gabrieldiaz31@gmail.com
 description: This site will be my storage of knowledge, here I'll document all solutions
   for common problems of development and tricks in my day to day.
-baseurl: ''
+baseurl: 
 url: https://cyaiox.github.io
 twitter_username: cyaiox
 github_username: cyaiox
